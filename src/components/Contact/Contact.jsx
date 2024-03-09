@@ -1,8 +1,13 @@
 import React from "react";
 import "./Contact.css";
 import { MdCall } from "react-icons/md";
-import { BsFillChatDotsFill } from "react-icons/bs";
-import {HiChatBubbleBottomCenter} from 'react-icons/hi2'
+//import { BsFillChatDotsFill } from "react-icons/bs";
+import { HiChatBubbleBottomCenter } from "react-icons/hi2";
+//import { RiLinkedinBoxFill } from "react-icons/ri";
+import { RiMailAddFill } from "react-icons/ri";
+import { RiInstagramFill } from "react-icons/ri";
+import { RiTwitterFill } from "react-icons/ri";
+
 const Contact = () => {
   return (
     <div id="contact-us" className="c-wrapper">
@@ -35,14 +40,14 @@ const Contact = () => {
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <BsFillChatDotsFill size={25} />
+                    <RiMailAddFill size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Chat</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="primaryText">Mail</span>
+                    <span className="secondaryText">sportsocial@gmail.com</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Chat now</div>
+                <div className="flexCenter button">Mail now</div>
               </div>
             </div>
 
@@ -51,27 +56,27 @@ const Contact = () => {
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <BsFillChatDotsFill size={25} />
+                    <RiInstagramFill size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="primaryText">Instagram</span>
+                    <span className="secondaryText">@sportsocial</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Video Call now</div>
+                <div className="flexCenter button">Connect now</div>
               </div>
 
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <HiChatBubbleBottomCenter size={25} />
+                    <RiTwitterFill size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Message</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="primaryText">Twitter</span>
+                    <span className="secondaryText">_sportsocial_</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Message now</div>
+                <div className="flexCenter button">tweet now</div>
               </div>
             </div>
           </div>

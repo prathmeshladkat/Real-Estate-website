@@ -1,6 +1,6 @@
 import React from "react";
 import "./GetStarted.css";
-const GetStarted = () => {
+/*const GetStarted = () => {
   return (
     <div id="get-started" className="g-wrapper">
       <div className="paddings innerWidth g-container">
@@ -20,4 +20,4 @@ const GetStarted = () => {
   );
 };
 
-export default GetStarted;
+export default GetStarted;*/

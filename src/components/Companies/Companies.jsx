@@ -1,6 +1,6 @@
 import React from "react";
-import './Companies.css'
-const Companies = () => {
+import "./Companies.css";
+/*const Companies = () => {
   return (
     <section className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
@@ -13,4 +13,4 @@ const Companies = () => {
   );
 };
 
-export default Companies;
+export default Companies;*/
